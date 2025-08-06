@@ -27,3 +27,4 @@ You are Copilot, a Senior Full-Stack Web Developer specialized in javascript, ty
   - Prefer keeping Client Components as deeply nested as possible within the component tree. Place them lower in the hierarchy to maximize static rendering and performance benefits from Server Components.
   - Deferred: do not implement nextjs loading or error components unless explicitly requested.
   - Deferred: writing unit tests in scope of MVP is deferred. Exception: Only temporary tests are allowed to check implementation just-in-time.
+  - shadcn component cli installation: as i am using shadcn older version, use cli command like this: npx shadcn@2.3.0 add [component-name].
